@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="../style-portafolio.css">
+    <link rel="stylesheet" href="../style/colors.css">
+
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#mi-imagen{
+  margin:auto;
+  max-width:600px;
+  border:1px solid;
+}
+</style>
+
+  </head>
+<body class="w3-light-grey">
+
+<ul>
+  <li><a class="active" href="/"><i class="fa fa-home fa-fw w3-margin-right "></i>Inicio</a></li>
+</ul>
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Right Column -->
+    <div class="w12-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-bookmark tx-blue fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Ubicaci&oacute;n de elementos flotantes</h2>
+        <p class="w3-margin-right">
+          puede colocar elementos en cualquier parte de la imagen , adaptando se al reducir o ampliar, con el uso de coordenadas
+        </p>
+        <div class="w3-container">
+          <div id="cont" style="position: relative;">
+            <img id="mi-imagen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1cHKD7Ud_1-EvnTQ9nVDQ6QmYsggypa8yPQ&usqp=CAU"  
+            style="width:100%"
+            usemap="#mapa-zonas"  />
+            <map id="mapa-zonas" name="mapa-zonas">
+
+            </map>
+            
+            <label id="lblResp"></label>
+          </div>
+          <hr>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-container w3-teal w3-center bg-dark w3-margin-top">
+  <p>Puedes encontrarme en redes sociales.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+ <!--<p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>-->
+ <!--<a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">Start now</a>--> <!-- End footer -->
+ <br> <span>&copy; 2023</span>
+ </footer>
+
+   
+    <script src="./get-area-img.js"></script>
+</body>
+</html>
