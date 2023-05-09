@@ -1,1 +1,35 @@
+/* azul*/
+ .bg-blue{
+     background-color: #238ae6 !important;
+ }
+ .tx-blue{
+     color: #238ae6 !important;
+ }
 
+/* gris */
+.bg-gray{
+    background-color: rgb(179, 185, 190)!important;
+}
+
+ .tx-gray{
+     color: rgb(179, 185, 190)!important;
+ }
+
+ /**negro*/
+
+.bg-dark{
+    background-color: #333!important;
+}
+
+ .tx-dark{
+     color:  #333!important;
+ }
+
+/** anaranjado */
+.bg-orange{
+    background-color: #333!important;
+}
+
+ .tx-orange{
+     color:  #333!important;
+ }
