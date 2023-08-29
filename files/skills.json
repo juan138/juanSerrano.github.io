@@ -1,0 +1,21 @@
+{
+ "data": [
+    {
+     "id": "1",
+     "nameSkill": "ionic",
+     "maneimg": "ionic.png"
+    },
+    {
+     "id": "2",
+     "nameSkill": "angular",
+     "maneimg": "angular.png"
+    },
+    {
+     "id": "3",
+     "nameSkill": "spring",
+     "maneimg": "spring.png"
+    }
+   ]
+ ,
+"msg":"success"
+}
