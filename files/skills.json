@@ -2,18 +2,32 @@
  "data": [
     {
      "id": "1",
+     "nameSkill": "Java",
+     "maneimg": "java.png"
+    },
+    {
+     "id": "2",
+     "nameSkill": "Spring",
+     "maneimg": "spring.png"
+    },
+    {
+     "id": "3",
+     "nameSkill": "Angular",
+     "maneimg": "angular.png"
+    },{
+     "id": "4",
      "nameSkill": "ionic",
      "maneimg": "ionic.png"
     },
     {
-     "id": "2",
-     "nameSkill": "angular",
-     "maneimg": "angular.png"
+     "id": "5",
+     "nameSkill": "Postgree sql",
+     "maneimg": "postgre.png"
     },
     {
-     "id": "3",
-     "nameSkill": "spring",
-     "maneimg": "spring.png"
+     "id": "6",
+     "nameSkill": "sql server",
+     "maneimg": "sql_server.png"
     }
    ]
  ,
