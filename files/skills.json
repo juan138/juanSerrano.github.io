@@ -28,6 +28,16 @@
      "id": "6",
      "nameSkill": "sql server",
      "maneimg": "sql_server.png"
+    },
+    {
+     "id": "7",
+     "nameSkill": "HTML",
+     "maneimg": "html5.png"
+    },
+    {
+     "id": "6",
+     "nameSkill": "CSS",
+     "maneimg": "css3.png"
     }
    ]
  ,
