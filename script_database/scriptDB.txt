@@ -1,0 +1,38 @@
+create table general_info(
+	pk_general_info serial4 not null,
+	name_principal varchar(255),
+	name_sub_principal varchar(255),
+	img_principal varchar(500),
+	description_personal varchar(max),
+	number_phone varchar(20),
+	mail_personel varchar(50),
+	direction varchar(max),
+	rute_img_general varchar(500)
+);
+
+create table skills(
+	pk_skill serial4 not null,
+	fk_general_info integer,
+	name_skill varchar(100),
+	url_img varchar(100),
+	description varchar(500)
+);
+
+create table experiences(
+	pk_experience serial4 not null,
+	fk_general_info integer,
+	company_name varchar(100),
+	cargo varchar(100),
+	start_year varchar(4),
+	end_year varchar(4),
+	currently boolean
+);
+
+create table proyects(
+	pk_proyect serial4 not null,
+	name_proyect varchar(255),
+	description varchar(500),
+	url_img varchar(255),
+	url_demo varchar(255),
+	active_demo boolean
+);
